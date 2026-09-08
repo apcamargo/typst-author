@@ -123,6 +123,7 @@ Snippet from `examples/example.typ`:
 ```
 
 ## Layout and theming
+- Preserve visual consistency: new layouts, figures, tables, and drawings must reuse the document's existing fonts, colors, and typographic hierarchy (unless instructed otherwise). Internal consistency should be maintained (same function → same size and color).
 - Use `composer` in `#slide` for columns; pass `(1fr, 2fr)` or a custom `grid` function.
 - Use `config-page` for margin, header, footer, and background; do not use `set page` directly.
 - Use `config-methods(cover: utils.semi-transparent-cover.with(alpha: 85%))` only when layout changes are acceptable.

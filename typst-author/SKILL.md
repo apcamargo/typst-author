@@ -38,9 +38,16 @@ This is a paragraph in Typst.
 
 ## Workflows
 
-- **Creating a new Typst project**: Use the "Minimal document example" above as a starting point. Skim the tutorial for the basics ([docs/tutorial/1-writing.md](docs/tutorial/1-writing.md)), then create the `.typ` file(s). After each `.typ` edit, follow the post-edit formatting checks below when `typstyle` is available.
-- **Editing existing content**: Locate the target text and apply changes; confirm syntax against the reference when needed ([docs/reference/index.md](docs/reference/index.md)). After each modified `.typ` file, follow the post-edit formatting checks below.
-- **Formatting & Styling**: Consult the styling guide ([docs/reference/language/styling.md](docs/reference/language/styling.md)) for `set rule`, `show rule`, selectors, and transformations.
+- **Creating a new Typst project**:
+  - Use the "Minimal document example" above as a starting point.
+  - Skim the tutorial for the basics ([docs/tutorial/1-writing.md](docs/tutorial/1-writing.md)), then create the `.typ` file(s).
+  - After each `.typ` edit, follow the post-edit formatting checks below when `typstyle` is available.
+- **Editing existing content**:
+  - Locate the target text and apply changes; confirm syntax against the reference when needed ([docs/reference/index.md](docs/reference/index.md)).
+  - After each modified `.typ` file, follow the post-edit formatting checks below.
+- **Formatting & styling**:
+  - Consult the styling guide ([docs/reference/language/styling.md](docs/reference/language/styling.md)) for `set rule`, `show rule`, selectors, and transformations.
+  - Preserve visual consistency: new layouts, figures, tables, and drawings must reuse the document's existing fonts, colors, and typographic hierarchy (unless instructed otherwise). Internal consistency should be maintained (same function → same size and color).
 
 ## Documentation
 
